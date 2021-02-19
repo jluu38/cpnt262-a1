@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  justify-items: center;
+}
+
+i {
+  font-size: 6rem;
+}
+
+.hold {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.throw {
+  visibility: hidden;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.ball {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.dog {
+  grid-row: 2 / 3;
+}
