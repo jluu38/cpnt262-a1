@@ -7,11 +7,17 @@ Created and maintained by Jessica Luu
 
 ## Summary
 
-
+- *To preface*: skimmed too quickly over the Use Cases subsection of the assignment and didn't realise there were 4 options focused on toggling menus/configs/etc. Decided to barrel on anyways and thus --
+- The button toggles:
+  - Icons of the hands while throwing/catching the ball.
+  - Position of the ball (on CSS Grid)
+  - A so-called "night mode" that darkens the background image with a linear gradient (it's an eyesore -- sorry).
+- Had some issues with using `querySelector` for some reason and relied more on `getElementById`.
+- Font Awesome classes made HTML elements difficult to read (and navigate w/ Javascript) but found the `data-text-swap` solution to show the current state of toggle instead.
+- Sorry for the mixup! However, I did play with classList toggle in my [CPNT201 - SVG Graphic](https://jluu38.github.io/cpnt201-a3/) assignment and managed a night mode there (not that I'm expecting you to mark that assignment in place of this one).
 
 ## Attributions
 
-- [Bouncing animation](https://codepen.io/webmantras/pen/azWJOB) - Web Mantras
-- [CSS gradient tool](https://cssgradient.io/)
+- [Background image](https://picsum.photos/) - Paula Borowska (from Lorem Picsum)
 - [Button fonts](https://fontawesome.com/license/free) - Font Awesome
-- The [monstrous idea](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#toggling-themes) for nesting selectors in Fun Mode - Adhuham
+- [Data-text-swap code](https://css-tricks.com/swapping-out-text-five-different-ways/) - Chris Coyier

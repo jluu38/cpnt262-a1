@@ -3,14 +3,14 @@
 function nightMode() {
   const background = document.querySelector(".bg");
   background.classList.toggle("nite");
-};
+}
 
 // position of the ball
   function ballToDog() {
   const ball = document.getElementById("ball");
   ball.classList.toggle("ball");
   ball.classList.toggle("toDog");
-};
+}
 
 // hand when thrown/caught
 function handToggle() {
@@ -20,7 +20,7 @@ function handToggle() {
   toss.classList.toggle("hidden");
   // document.querySelector("button").innerText = "Catch";
   // decided against the above so as to not clutter with more classes
-};
+}
 
 function buttonTextSwap() {
   const button = document.getElementById("button");
@@ -30,12 +30,12 @@ function buttonTextSwap() {
     button.setAttribute("data-text-original", button.innerHTML);
     button.innerHTML = button.getAttribute("data-text-swap");
   }
-};
+}
 
 button.addEventListener("click", () => {
   nightMode();
   ballToDog();
   handToggle();
   buttonTextSwap();
-});
+})
 // kept breaking when i tried to condense functions -- unsure if this seems excessive
