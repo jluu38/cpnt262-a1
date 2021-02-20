@@ -11,7 +11,7 @@ Created and maintained by Jessica Luu
 - The button toggles:
   - Icons of the hands while throwing/catching the ball.
   - Position of the ball (on CSS Grid)
-  - A so-called "night mode" that darkens the background image with a linear gradient (it's an eyesore -- sorry).
+  - A so-called "night mode" that darkens the background image with a linear gradient (added this last minute, and know it's an eyesore -- sorry).
 - Had some issues with using `querySelector` for some reason and relied more on `getElementById`.
 - Font Awesome classes made HTML elements difficult to read (and navigate w/ Javascript) but found the `data-text-swap` solution to show the current state of toggle instead.
 - Sorry for the mixup! However, I did play with classList toggle in my [CPNT201 - SVG Graphic](https://jluu38.github.io/cpnt201-a3/) assignment and managed a night mode there (not that I'm expecting you to mark that assignment in place of this one).
